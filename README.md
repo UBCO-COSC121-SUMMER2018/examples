@@ -1,2 +1,2 @@
-# examples
-Examples from class
+# Examples
+This repositry contains simples examples from class
