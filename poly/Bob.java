@@ -1,4 +1,4 @@
-package poly;
+package examples.poly;
 
 public class Bob extends Sally{
 

@@ -1,10 +1,10 @@
-package exampes;
+package examples;
 
-public class b extends a {
+public class B extends A {
 	
 	protected int b = 20;
 	
-	public b()
+	public B()
 	{
 		
 	}

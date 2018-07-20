@@ -1,11 +1,11 @@
-package exampes;
+package examples;
 
-public class sorty implements Comparable<sorty> {
+public class Sorty implements Comparable<Sorty> {
 
 	private String nameOfCoffee;
 	private int rating;
 	
-	public sorty(String s, int r){
+	public Sorty(String s, int r){
 		this.nameOfCoffee = s;
 		this.rating = r;
 	}
@@ -28,12 +28,12 @@ public class sorty implements Comparable<sorty> {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		sorty[] coffeeRatings = {
-				new sorty("Starbucks",2),
-				new sorty("Timmies",10),
-				new sorty("McDonalds", 7),
-				new sorty("Bean Scene", 0),
-				new sorty("Green Bean", 6)
+		Sorty[] coffeeRatings = {
+				new Sorty("Starbucks",2),
+				new Sorty("Timmies",10),
+				new Sorty("McDonalds", 7),
+				new Sorty("Bean Scene", 0),
+				new Sorty("Green Bean", 6)
 			};
 		
 		
@@ -51,7 +51,7 @@ public class sorty implements Comparable<sorty> {
 	}
 
 	@Override
-	public int compareTo(sorty s) {
+	public int compareTo(Sorty s) {
 		// TODO Auto-generated method stub
 		//int difference = this.rating - s.getRating();
 		return this.getName().compareTo(s.getName());

@@ -1,11 +1,11 @@
-package exampes;
+package examples;
 
-public class a {
+public class A {
 	
 	private int i = 10;
 	protected int a = 10;
 	
-	public a()
+	public A()
 	{
 		
 	}

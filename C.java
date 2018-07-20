@@ -1,10 +1,10 @@
-package exampes;
+package examples;
 
-public class c extends b {
+public class C extends B {
 	
 	protected int c = 30;
 	
-	public c()
+	public C()
 	{
 		
 	}
@@ -12,7 +12,9 @@ public class c extends b {
 	public void thisIsC()
 	{
 		super.a = 10;
-		i = 30;
+		
+		//This is not available as i is private
+		//i = 30;
 		
 	}
 }

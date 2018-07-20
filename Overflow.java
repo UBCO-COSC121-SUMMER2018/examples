@@ -1,4 +1,4 @@
-package exampes;
+package examples;
 
 public class Overflow {
 
