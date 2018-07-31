@@ -4,10 +4,11 @@ import java.util.ArrayList;
 
 public class SimpleStack {
 
-	ArrayList<Integer> al = new ArrayList<>();
+	ArrayList<Integer> al;
 	
 	public SimpleStack()
 	{
+		al = new ArrayList<>(3);
 		al.clear();
 	}
 	
