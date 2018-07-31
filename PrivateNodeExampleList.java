@@ -116,7 +116,6 @@ public class PrivateNodeExampleList {
 	
 	/**
 	 * Used to support a double linked list
-	 * @author 300216875
 	 *
 	 */
 	private class Node{
